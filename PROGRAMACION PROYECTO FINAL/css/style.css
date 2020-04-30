@@ -1,0 +1,446 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body-inicio {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #464B59;
+}
+
+#cuerpo-inicio {
+    width: 1200px;
+    height: 500px;
+    border: 30px solid#707070;
+    margin: 0 auto;
+}
+
+#header-inicio img {
+    position: relative;
+    top: -50px;
+    left: 41%;
+}
+
+#header-inicio {
+    width: auto;
+    height: 120px;
+    border-bottom: 2px solid gray;
+}
+
+#caja1-inicio {
+    position: absolute;
+    left: 20%;
+    top: 23%;
+}
+
+#caja2-inicio {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    margin: 0 auto;
+}
+
+#caja2-inicio h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#caja2-inicio h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#btn-si {
+    font-size: 25px;
+    color: white;
+    background: rgb(9, 9, 9);
+    background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+    border-radius: 5px;
+    width: 60px;
+}
+
+#botones-inicio {
+    position: absolute;
+    right: 30%;
+    top: 75%;
+}
+
+#btn-no {
+    font-size: 25px;
+    color: white;
+    background: rgb(9, 9, 9);
+    background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+    border-radius: 5px;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*------------------------------Inicio footer-inicio--------------------------------------*/
+
+#footer-inicio {
+    position: absolute;
+    width: 1260px;
+    height: 100px;
+    left: 220px;
+    top: 560px;
+    color: white;
+    overflow: visible;
+    background: rgb(155, 157, 157);
+    background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+}
+
+#footer-inicio h2 {
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    font-size: 25px;
+    color: white;
+}
+
+#iconos-inicio {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+}
+
+#footer-inicio img {
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-right: 25px;
+}
+
+#footer-inicio h3 {
+    position: absolute;
+    top: 16%;
+    left: 70%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*---------------------------------- fin footer-inicio---------------------------------------*/
+
+
+/*---------------------------------- FIN PAGINA DE INICIO--------------------------------*/
+
+
+/*---------------------------------- PAGINA HOME-----------------------------------------*/
+
+#body-home {
+    background-color: #464B59;
+    width: 100%;
+    height: 1200px;
+}
+
+#cuerpo-home {
+    background-color: #464B59;
+    width: 100%;
+    height: 1200px;
+}
+
+#cuerpo-home img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu_bf {
+    width: 100%;
+    height: 30%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#menu-ppal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#btn-irTienda {
+    position: absolute;
+    left: 42%;
+    top: 120%;
+    font-size: 30px;
+    color: white;
+    background: rgb(9, 9, 9);
+    background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+    border-radius: 5px;
+    width: 200px;
+}
+
+#contactanos {
+    color: white;
+    position: absolute;
+    right: 19%;
+    top: 165%;
+}
+
+#formulario-contacto {
+    background-color: #363636;
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    right: 12%;
+    top: 172%;
+    border-radius: 15px;
+}
+
+#formulario-contacto #name {
+    width: 280px;
+    font-size: 16;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 6%;
+    border-radius: 5px;
+}
+
+#formulario-contacto #mail {
+    width: 280px;
+    font-size: 16;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    border-radius: 5px;
+}
+
+#formulario-contacto #msg {
+    width: 280px;
+    font-size: 16;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    border-radius: 5px;
+}
+
+#button {
+    width: 100px;
+    font-size: 18;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    border-radius: 5px;
+    color: white;
+    background: rgb(9, 9, 9);
+    background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+}
+
+
+/*---------------------------------- Inicio Menu---------------------------------------*/
+
+.menu #logo-menu {
+    width: 20%;
+    height: 30%;
+}
+
+#logo-menu {
+    position: absolute;
+    left: 7%;
+    top: 156%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#home {
+    position: absolute;
+    left: 35%;
+    top: 161%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#productos {
+    position: absolute;
+    left: 42%;
+    top: 157%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#contactos {
+    position: absolute;
+    left: 53%;
+    top: 152.5%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#ingresar {
+    position: absolute;
+    left: 73%;
+    top: 144%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#registrarse {
+    position: absolute;
+    left: 81%;
+    top: 140%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+.menu #carrito {
+    width: 80px;
+    height: 80px;
+}
+
+#carrito {
+    position: absolute;
+    left: 90%;
+    top: 132%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+
+/*---------------------------------- Fin Menu---------------------------------------*/
+
+
+/*------------------------------Inicio footer general-------------------------------*/
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    color: white;
+    overflow: visible;
+    background: rgb(155, 157, 157);
+    background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+}
+
+#footer h2 {
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    font-size: 22px;
+    color: white;
+}
+
+#iconos {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#footer img {
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-right: 20px;
+}
+
+#footer h3 {
+    position: absolute;
+    top: 16%;
+    left: 70%;
+    font-size: 17px;
+    color: white;
+}
+
+
+/*---------------------------------- fin footer general---------------------------------------*/
+
+
+/*---------------------------------- menu general---------------------------------------*/
+
+#menu-gral #logo-menu-gral {
+    width: 20%;
+    height: 30%;
+}
+
+#logo-menu-gral {
+    width: 100px;
+    height: 100px;
+}
+
+#logo-menu-gral {
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#home-gral {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#productos-gral {
+    position: absolute;
+    left: 42%;
+    top: 31%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#contactos-gral {
+    position: absolute;
+    left: 53%;
+    top: 26%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#ingresar-gral {
+    position: absolute;
+    left: 73%;
+    top: 17%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#registrarse-gral {
+    position: absolute;
+    left: 81%;
+    top: 13%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+#menu-gral #carrito-gral {
+    width: 80px;
+    height: 80px;
+}
+
+#carrito-gral {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    overflow: visible;
+    transform: rotate(-11deg);
+}
+
+
+/*---------------------------------- fin menu general---------------------------------------*/
